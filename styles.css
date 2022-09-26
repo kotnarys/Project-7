@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.brick{
+    background-color: yellow;
+
+    color: black;
+    font-size: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 160px;
+}
+
+.centers{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+.star{
+    margin:60px;
+
+    max-width: 25%;
+
+    border-style:solid;
+    border-radius: 5px;
+
+    font-size: 20px;
+}
+
+.star img{
+    width: 100%;
+    height: 400px;    
+}
+
+.star h3{
+    margin: 0 auto;
+}
